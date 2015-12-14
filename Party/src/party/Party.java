@@ -25,8 +25,14 @@ public class Party {
 	void pay(Person guest) { 
 		//har ingen kropp än. Implementera kroppen med lämplig felhantering. 
 		//Vid fel ska undantag kastas.
-		
 		//Skrivs av albin
+		
+		try
+		{
+			guests.remove(guest);
+			addGuest(guest, true);
+		}
+		catch(Exception e){}
 
 	}
 	boolean hasPaid(Person guest) throws NoSuchPersonException { 

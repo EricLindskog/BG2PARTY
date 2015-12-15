@@ -10,8 +10,11 @@ public abstract class Person {
 	} 
 	public String getName() {
 		return name; 
-		
 	} 
+	
+	public Sex getSex(){
+		return this.sex;
+	}
 	@Override public int hashCode() { 
 		return name.hashCode();
 	}

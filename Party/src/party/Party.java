@@ -9,7 +9,7 @@ public class Party {
 	private Money entranceFee; 
 	private Map<Person, Boolean> guests;
 	private Map<Sponsor, Money> sponsors; 
-	private Map<String, Double> spons;
+	
 	Party(String partyName, int maxGuests, Money entranceFee) { 
 		this.partyName = partyName;
 	
@@ -47,18 +47,14 @@ public class Party {
 	void addSponsor(Sponsor sponsor, Money amount) { 
 		sponsors.put(sponsor, amount); 
 	}
-<<<<<<< HEAD
+
 	void addSponsor(String sponsor, double amount){
 		Sponsor x = new Sponsor(sponsor);
 		Money y = new Money(amount);
 		
 		addSponsor(x,y);
 	}
-=======
-	/*
-	 * H�r skall Daniel Holmberg skriva en �verlagring f�r add sponsor
-	 */
->>>>>>> origin/master
+
 	public void print() { 
 		// Skrivs av Samuel enligt beskrivning
 	}

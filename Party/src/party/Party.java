@@ -16,6 +16,9 @@ public class Party {
 		this.entranceFee = entranceFee; 
 		this.guests = new HashMap<Person, Boolean>(); 
 		this.sponsors = new HashMap<Sponsor, Money>();
+		//This is TEST!!
+		
+		
 	} 
 	void addGuest(Person guest) { 
 		addGuest(guest, false); } 
@@ -30,6 +33,7 @@ public class Party {
 			addGuest(guest, true);
 		}
 		catch(Exception e){}
+		
 
 	}
 	boolean hasPaid(Person guest) throws NoSuchPersonException { 
@@ -43,7 +47,7 @@ public class Party {
 		sponsors.put(sponsor, amount); 
 	}
 	/*
-	 * Här skall Daniel Holmberg skriva en överlagring för add sponsor
+	 * Hï¿½r skall Daniel Holmberg skriva en ï¿½verlagring fï¿½r add sponsor
 	 */
 	public void print() { 
 		// Skrivs av Samuel enligt beskrivning

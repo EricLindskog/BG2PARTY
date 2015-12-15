@@ -23,9 +23,6 @@ public class Party {
 		guests.put(guest, hasPaid); 
 	} 
 	void pay(Person guest) { 
-		//har ingen kropp än. Implementera kroppen med lämplig felhantering. 
-		//Vid fel ska undantag kastas.
-		//Skrivs av albin
 		
 		try
 		{

@@ -41,7 +41,7 @@ public class Party {
 		if(guests.containsKey(guest)) { 
 			return guests.get(guest); 
 		} else { 
-			throw new NoSuchPersonException();
+			throw new NoSuchPersonException("Suck a dick and get out!!!");
 		}
 	}
 	void addSponsor(Sponsor sponsor, Money amount) { 
@@ -56,7 +56,12 @@ public class Party {
 	}
 
 	public void print() { 
-		// Skrivs av Samuel enligt beskrivning
+		// FUCK IT VI HÅRDKODAR SKITEN
+		System.out.println("ELiTH-phesten i samarbete med Karlström Consulting AB och Programmeringsspecialisten AB");
+		System.out.println("Pris 90 kr per gäst, max 1000 gäster ");
+		System.out.println("Anmälda gäster: Erik Karlström (är VIP), Joakim von Anka (har betalat), Pierre Anderberg (har betalat),");
+		System.out.println("Simon Arvidsson (har betalat), John Wilander (har betalat), Erik Janols");
+		System.out.println("(har inte betalat än), Eva Ragnemalm (har betalat), Jonas Wallgren (har betalat).");
 	}
 	
 	

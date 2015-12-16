@@ -1,7 +1,14 @@
 package party;
 
-public class GuestToStudent {
+public class GuestToStudent extends Student {
+	
+	Person master;
+	GuestToStudent(String name, Sex sex, Person master) {
+		super(name, sex);
+		this.master = master;	
+	}
+	
 /*
- * Daniel Jonsson skall färdigställa denna klass enligt dokumentet
+ * Daniel Jonsson skall fï¿½rdigstï¿½lla denna klass enligt dokumentet
  */
 }

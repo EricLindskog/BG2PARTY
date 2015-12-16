@@ -2,6 +2,7 @@ package party;
 
 public enum Sex { 
 	MALE,
-	FEMALE;
+	FEMALE
+	AH-64-APACHE;
 
 }
